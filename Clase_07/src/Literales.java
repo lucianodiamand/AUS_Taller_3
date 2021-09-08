@@ -28,6 +28,5 @@ public class Literales {
 		float f3 = f1 + f2;
 		
 		float f4 = 50;
-		
 	}
 }
