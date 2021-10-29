@@ -18,6 +18,8 @@ public class MiVentana extends JFrame {
 		setVisible(true);
 		
 		Container ctx = getContentPane();
+//		JPanel menu = new JPanel();
+//		menu.setLayout(new GridLayout(3, 3));
 		
 		JPanel botonera = new JPanel();
 		LayoutManager2 lo = new BoxLayout(botonera, BoxLayout.Y_AXIS);
@@ -34,6 +36,16 @@ public class MiVentana extends JFrame {
 		button3.setAlignmentX(Component.CENTER_ALIGNMENT);
 		button3.setAlignmentY(Component.CENTER_ALIGNMENT);
 		botonera.add(button3);
+		
+//		menu.add(new JButton());
+//		menu.add(new JButton());
+//		menu.add(new JButton());
+//		menu.add(new JButton());
+//		menu.add(botonera);
+//		menu.add(new JButton());
+//		menu.add(new JButton());
+//		menu.add(new JButton());
+//		menu.add(new JButton());
 		
 		ctx.add(botonera, BorderLayout.CENTER);
 	}
